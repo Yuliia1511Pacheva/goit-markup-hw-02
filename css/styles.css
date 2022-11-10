@@ -1,0 +1,81 @@
+/* основний колір #212121
+вторичній колір текста #757575
+колір акцента #2196F3
+вторичний колір фона #F5F4FA */
+
+:root {
+    --primary-white-color: #F5F5F5;
+    --primary-text-color: #212121;
+    --accent-color: #2196F3;
+    --text-color: #757575;
+}
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+}
+
+.logo {
+    color: var(--primary-text-color);
+}
+
+.logo-studio {
+    color: var(--accent-color);
+}
+
+.list {
+    list-style: none;
+}
+/* nav */
+.site-nav a {
+    color: var(--primary-text-color)
+}
+
+.site-contacts a {
+    color: var(--text-color)
+}
+
+.site-nav a:hover, .site-nav a:focus,
+.site-contacts a:hover, .site-contacts a:focus {
+    color: var(--accent-color);
+}
+
+/* hero */
+.hero {
+
+}
+
+.hero-title {
+    color: #FFFFFF;
+}
+
+.hero-button {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+/* Buttons */
+.button {
+
+}
+
+/* Sections */
+.features p{
+    color: var(--text-color);
+}
+
+.section-team {
+    background-color: #F5F4FA;
+}
+
+.team p {
+    color: var(--text-color);
+}
+
+/* Footer */
+address {
+    color: #FFFFFF;
+}
+
+.footer a {
+    color: rgba(255, 255, 255, 0.6);;
+}
