@@ -29,6 +29,11 @@ body {
 /* nav */
 .site-nav a {
     color: var(--primary-text-color)
+   
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
 }
 
 .site-contacts a {
@@ -65,10 +70,12 @@ body {
 
 .section-team {
     background-color: #F5F4FA;
+    
 }
 
 .team p {
     color: var(--text-color);
+    
 }
 
 /* Footer */
