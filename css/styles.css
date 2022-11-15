@@ -91,11 +91,12 @@ body {
     letter-spacing: 0.06em;
 
     border: none;
+
+    cursor: pointer;
 }
 
-.hero-button a:hover, .hero-button a:focus {
+.hero-button:hover, .hero-button:focus {
 background-color:#188CE8;
-border: 1px #000000;
 }
 
 
